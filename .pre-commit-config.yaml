@@ -1,0 +1,5 @@
+repos:
+  - repo: https://github.com/dbforma/pre-commit-pyflakes  # Update with the remote central repo URL
+    rev: v0.0.4
+    hooks:
+      - id: hooks-pyflakes
