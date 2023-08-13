@@ -1,5 +1,5 @@
 -   id: custom-pyflakes
     name: custom-pyflakes
-    entry: main
+    entry: hook-pyflakes
     language: python
     stages: [commit]
