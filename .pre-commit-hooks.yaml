@@ -1,0 +1,5 @@
+-   id: custom-pyflakes
+    name: custom-pyflakes
+    entry: ./main.py
+    language: python
+    stages: [commit]
