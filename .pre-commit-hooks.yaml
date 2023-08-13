@@ -3,3 +3,8 @@
     entry: hook-pyflakes
     language: python
     stages: [commit]
+-   id: test
+    name: test
+    entry: ./test.sh
+    language: script
+    stages: [commit, push, manual]
