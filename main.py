@@ -5,6 +5,7 @@ import sys
 
 
 def main():
+    print("Running main.py...")
 
     find_cmd = "find $PWD -type d -name '.env' -prune -o -type f -name '*.py' -print"
     xargs_cmd = "xargs pyflakes"
